@@ -111,7 +111,7 @@ console.log(sequencegenerator(1000))
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository adico1/sequencegenerator">view contributions</a></li></ul>
+<ul><li><a href="http://adico.tech">Adi Cohen</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=adico1" title="View the GitHub contributions of Adi Cohen on repository adico1/sequencegenerator">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -131,13 +131,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository adico1/sequencegenerator">view contributions</a></li>
-<li><a href="https://github.com/StephenBrown2">Stephen Brown II</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=StephenBrown2" title="View the GitHub contributions of Stephen Brown II on repository adico1/sequencegenerator">view contributions</a></li>
-<li><a href="https://github.com/tedshroyer">ted shroyer</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=tedshroyer" title="View the GitHub contributions of ted shroyer on repository adico1/sequencegenerator">view contributions</a></li>
-<li><a href="http://caasih.net">Isaac Huang</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=caasi" title="View the GitHub contributions of Isaac Huang on repository adico1/sequencegenerator">view contributions</a></li>
-<li><a href="https://github.com/zboszor">zboszor</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=zboszor" title="View the GitHub contributions of zboszor on repository adico1/sequencegenerator">view contributions</a></li>
-<li><a href="https://github.com/guhcostan">Gustavo Costa Neves</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=guhcostan" title="View the GitHub contributions of Gustavo Costa Neves on repository adico1/sequencegenerator">view contributions</a></li>
-<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository adico1/sequencegenerator">view contributions</a></li></ul>
+<ul><li><a href="http://adico.tech">Adi Cohen</a> — <a href="https://github.com/adico1/sequencegenerator/commits?author=adico1" title="View the GitHub contributions of Adi Cohen on repository adico1/sequencegenerator">view contributions</a></li></ul>
 
 <a href="https://github.com/adico1/sequencegenerator/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
