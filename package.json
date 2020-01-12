@@ -1,0 +1,33 @@
+{
+  "name": "sequencegenerator",
+  "version": "1.0.0",
+  "description": "Time Sortable Distributed Unique Id Generator based on Twitter Snowflake",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "distributed",
+    "unique",
+    "id",
+    "generator",
+    "twitter",
+    "snowflake",
+    "javascript",
+    "typescript",
+    "time",
+    "sortable"
+  ],
+  "author": "adico",
+  "license": "MIT",
+  "dependencies": {
+    "getmac": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
+  }
+}
