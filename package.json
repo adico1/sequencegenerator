@@ -27,6 +27,7 @@
   ],
   "author": "adico",
   "license": "MIT",
+  "homepage": "https://github.com/adico1/sequencegenerator",
   "dependencies": {
     "getmac": "^5.0.0"
   },
