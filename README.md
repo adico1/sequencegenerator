@@ -8,8 +8,8 @@
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.com/adico1/sequencegenerator" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/adico1/sequencegenerator/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/sequencegenerator" title="View this project on NPM"><img src="https://img.shields.io/npm/v/sequencegenerator.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/sequencegenerator" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/sequencegenerator.svg" alt="NPM downloads" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@adico/sequencegenerator" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@adico/sequencegenerator.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@adico/sequencegenerator" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@adico/sequencegenerator.svg" alt="NPM downloads" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/adico1/sequencegenerator" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/adico1/sequencegenerator.svg" alt="Dependency Status" /></a></span>
 <span class="badge-daviddmdev"><a href="https://david-dm.org/adico1/sequencegenerator#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/adico1/sequencegenerator.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
