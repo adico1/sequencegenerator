@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Time Sortable Distributed Unique Id Generator based on Twitter Snowflake",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adico1/sequencegenerator.git"
+  },
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
