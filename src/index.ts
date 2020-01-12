@@ -31,7 +31,7 @@ export class SequenceGenerator {
     private sequence = 0 as Long;
 
     // Create SequenceGenerator with a nodeId
-    constructor(nodeId: Int) {
+    constructor(nodeId: Int | null) {
         if(nodeId === null || typeof nodeId === 'undefined') {
           this.nodeId = this.createNodeId();
           return;
