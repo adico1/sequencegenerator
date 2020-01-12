@@ -6,22 +6,21 @@
 
 
 <!-- BADGES/ -->
-
 <span class="badge-travisci"><a href="http://travis-ci.com/adico1/sequencegenerator" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/adico1/sequencegenerator/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@adico/sequencegenerator" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@adico/sequencegenerator.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/@adico/sequencegenerator" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@adico/sequencegenerator.svg" alt="NPM downloads" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/adico1/sequencegenerator" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/adico1/sequencegenerator.svg" alt="Dependency Status" /></a></span>
 <span class="badge-daviddmdev"><a href="https://david-dm.org/adico1/sequencegenerator#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/adico1/sequencegenerator.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
-<span class="badge-githubsponsors"><a href="https://github.com/sponsors/balupton" title="Donate to this project using GitHub Sponsors"><img src="https://img.shields.io/badge/github-donate-yellow.svg" alt="GitHub Sponsors donate button" /></a></span>
-<span class="badge-patreon"><a href="https://patreon.com/adico1" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
-<span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
-<span class="badge-liberapay"><a href="https://liberapay.com/adico1" title="Donate to this project using Liberapay"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg" alt="Liberapay donate button" /></a></span>
-<span class="badge-buymeacoffee"><a href="https://buymeacoffee.com/balupton" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span>
-<span class="badge-opencollective"><a href="https://opencollective.com/adico1" title="Donate to this project using Open Collective"><img src="https://img.shields.io/badge/open%20collective-donate-yellow.svg" alt="Open Collective donate button" /></a></span>
-<span class="badge-crypto"><a href="https://adico1.me/crypto" title="Donate to this project using Cryptocurrency"><img src="https://img.shields.io/badge/crypto-donate-yellow.svg" alt="crypto donate button" /></a></span>
-<span class="badge-paypal"><a href="https://adico1.me/paypal" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
-<span class="badge-wishlist"><a href="https://adico1.me/wishlist" title="Buy an item on our wishlist for us"><img src="https://img.shields.io/badge/wishlist-donate-yellow.svg" alt="Wishlist browse button" /></a></span>
+<!-- span class="badge-githubsponsors"><a href="https://github.com/sponsors/balupton" title="Donate to this project using GitHub Sponsors"><img src="https://img.shields.io/badge/github-donate-yellow.svg" alt="GitHub Sponsors donate button" /></a></span //-->
+<span class="badge-patreon"><a href="https://patreon.com/adico" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+<span class="badge-flattr"><a href="https://flattr.com/profile/adico" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
+<span class="badge-liberapay"><a href="https://liberapay.com/adico" title="Donate to this project using Liberapay"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg" alt="Liberapay donate button" /></a></span>
+<!-- span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/adico" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span //-->
+<!-- span class="badge-opencollective"><a href="https://opencollective.com/adico1" title="Donate to this project using Open Collective"><img src="https://img.shields.io/badge/open%20collective-donate-yellow.svg" alt="Open Collective donate button" /></a></span //-->
+<!-- span class="badge-crypto"><a href="https://adico1.me/crypto" title="Donate to this project using Cryptocurrency"><img src="https://img.shields.io/badge/crypto-donate-yellow.svg" alt="crypto donate button" /></a></span //-->
+<span class="badge-paypal"><a href="https://paypal.me/adico1" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
+<!-- span class="badge-wishlist"><a href="https://adico1.me/wishlist" title="Buy an item on our wishlist for us"><img src="https://img.shields.io/badge/wishlist-donate-yellow.svg" alt="Wishlist browse button" /></a></span //-->
 
 <!-- /BADGES -->
 
