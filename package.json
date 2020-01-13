@@ -1,6 +1,6 @@
 {
   "name": "@adico/sequencegenerator",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Time Sortable Distributed Unique Id Generator based on Twitter Snowflake",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
