@@ -35,7 +35,7 @@
     "our:verify:eslint": "eslint --fix --ignore-pattern '**/*.d.ts' --ignore-pattern '**/vendor/' --ignore-pattern '**/node_modules/' --ext .mjs,.js,.jsx,.ts,.tsx ./src",
     "our:verify:prettier": "prettier --write ./src/**",
     "our:verify:typescript": "tsc --noEmit --project tsconfig.json",
-    "test": "jest ./edition-esnext"
+    "test": "jest"
   },
   "keywords": [
     "distributed",
@@ -82,10 +82,10 @@
   },
   "funding": "https://adico.tech/fund",
   "maintainers": [
-    "Adico <adico1@gmail.com> (http://adico.tech)"
+    "adico <adico1@gmail.com> (http://adico.tech)"
   ],
   "contributors": [
-    "Adico <adico1@gmail.com> (http://adico.tech)"
+    "adico <adico1@gmail.com> (http://adico.tech)"
   ],
   "engines": {
     "node": ">=8"
@@ -118,7 +118,7 @@
   "bugs": {
     "url": "https://github.com/adico1/sequencegenerator/issues"
   },
-  "author": "2019+ Adico <adico1@gmail.com> (http://adico.tech)",
+  "author": "2019+ adico <adico1@gmail.com> (http://adico.tech)",
   "license": "MIT",
   "homepage": "https://github.com/adico1/sequencegenerator",
   "dependencies": {
