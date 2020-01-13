@@ -1,15 +1,22 @@
-/// <reference path="int.d.ts" />
+import { Int } from './int.d'
 import getMAC from 'getmac'
-import { Int } from './int.d';
 
 export default class GetMacAddress {
-  constructor() {}
+  getMACAddress = (): string => getMAC()
 
-  getMACAddress(): string {
-    return getMAC();
-  }
+  getMACAddressHashed = (): Int => this.hashCode(this.getMACAddress())
 
-  getMACAddressHashed(): Int {
-    return -1299227078 as Int;
+  hashCode = (word: string): Int => {
+    let hash = 0,
+      i,
+      chr
+    if (word.length === 0) return hash as Int
+    for (i = 0; i < word.length; i++) {
+      chr = word.charCodeAt(i)
+      hash = (hash << 5) - hash + chr // eslint-disable-line no-bitwise
+      // Convert to 32bit integer
+      hash |= 0 // eslint-disable-line no-bitwise
+    }
+    return hash as Int
   }
 }
