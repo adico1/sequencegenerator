@@ -42,16 +42,12 @@ This library will not run in web browsers / on the client-side / in webpack / in
 
 [API Documentation](http://master.sequencegenerator.adico1.surge.sh/docs/)
 
-### CLI
-
-Install globally `npm install -g sequencegenerator`, then run with `sequencegenerator-node`
-
 ### API
 
-Install locally `npm install --save sequencegenerator`, then use like so:
+Install locally `npm install --save @adico/sequencegenerator`, then use like so:
 
 ```javascript
-import SequenceGenerator from 'sequencegenerator'
+import SequenceGenerator from '@adico/sequencegenerator'
 
 // Generate Unique Id based on NodeId as hashed MAC address
 console.log(new SequenceGenerator().nextId())
