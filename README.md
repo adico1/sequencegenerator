@@ -37,7 +37,7 @@ This library will not run in web browsers / on the client-side / in webpack / in
 
 ## Usage
 
-[Complete API Documentation.](http://master.@adico/sequencegenerator.adico1.surge.sh/docs/globals.html)
+[Complete API Documentation.](http://master.sequencegenerator.adico1.surge.sh/docs/globals.html)
 
 ### API
 
