@@ -1,32 +1,23 @@
 dist: trusty
 sudo: false
-
 language: node_js
 node_js:
-  - '10'
-
-addons:
-  chrome: stable
-  apt:
-    update: true
-    sources:
-      - google-chrome
-    packages:
-      - dpkg
-      - google-chrome-stable
-
-cache:
-  directories:
-    - ./node_modules
-
+- '8'
+- '10'
+- '12'
+- '13'
+matrix:
+  fast_finish: true
+  allow_failures: []
+cache: npm
 install:
-  - npm install
-
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-install.bash)"
 before_script:
-  - LATEST_CHROMEDRIVER_VERSION=`curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE"`
-  - curl "https://chromedriver.storage.googleapis.com/${LATEST_CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" -O
-  - unzip chromedriver_linux64.zip -d ~/bin
-
-script:
-  - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
-  
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-verify.bash)"
+after_success:
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/surge.bash)"
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-publish.bash)"
+notifications:
+  email:
+    recipients:
+      secure: Bc80XL8rAnryLAUgVpp5SGIeML1NVuKXxJmSZHuvJTczxIu+u0hSoa2zA91FcMTgA3TuJ/Muoo1QI7dlkGV2YSk4MHWOOmTUR8+Ys/f9mVh9RMYLhDTdk/QraSKr+rlxZm61qPPoBG5P+GNLEC/HCaiAPEQz42V5uS6cWR6UisrREdttIrm1hYnqSMOE9Gn8HIIoeuOWh7TaLOMJThyKCPiW2d7DvJ5yiZ7fGcfmdX1FXADo7UQBI2Oj9D8at1dlw5psZg2tj7bp0ZP2zwKFusghr1hUy2F4QVCnkJ8YEp7VHx+cQbGX+ahZEOl0c+86oqp616Tdo8BepFlosT/sPVNDy+ufl58cpjaaDfjbA5n8b6MKU8lUh9NcwBjqpdmS3bfGun/m9y1ga0XA9ytnrZBZiAbdRqOdquyU/Paz71dcX3SSi80Q4zdqnTODkLrAUE5c9Ryp9nJsNhZqXH/3uUP+jMVF9L2NPEip31zwTtib18A5adlNZWJLMqqEAfAOofhMY9iCp8443YnBc+7sw2iU/kiOsBEpUBVY2at3Qm4HVcwAkrWVkLsTm/QFVmrsxdS7sBrhY6tbaR2wnz44An5isz/JJjETs5XcqjNy9+V3QhGgfaVa7xeIRNHk67tghJaTLzoSf2TzhoixCw/OWyAMNIsxwAMysnNEly3Ct70=

@@ -1,1 +1,1 @@
-export type Long = number & { __long__: void };
+export type Long = number & { __long__: void }

@@ -1,13 +1,8 @@
-import { Int } from "../int.d";
+/// <reference path="../int.d.ts" />
+import { Int } from '../int.d'
 
 export default class GetMacAddress {
-  constructor() {}
+	getMACAddress = (): string => '00:00:00:00:00:00'
 
-  getMACAddress(): string {
-    return '00:00:00:00:00:00';
-  }
-
-  getMACAddressHashed(): Int {
-    return -1299227078 as Int;
-  }
+	getMACAddressHashed = (): Int => -1299227078 as Int
 }
