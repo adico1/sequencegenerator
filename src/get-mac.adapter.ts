@@ -2,18 +2,18 @@ import { Int } from './int.d'
 import getMAC from 'getmac'
 
 declare global {
-  namespace NodeJS {
-    interface Global {
-        inTest: boolean
-    }
-  }
+	namespace NodeJS {
+		interface Global {
+			inTest: boolean
+		}
+	}
 }
 
 export default class GetMacAddress {
 	getMACAddress = (): string => getMAC()
 
 	getMACAddressHashed = (): Int => {
-		if(global.inTest) {
+		if (global.inTest) {
 			return -1299227078 as Int
 		} else {
 			return this.hashCode(this.getMACAddress())
