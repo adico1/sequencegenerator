@@ -1,6 +1,6 @@
 {
   "name": "@adico/sequencegenerator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Time Sortable Distributed Unique Id Generator based on Twitter Snowflake",
   "homepage": "https://github.com/adico1/sequencegenerator",
   "license": "MIT",

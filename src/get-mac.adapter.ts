@@ -4,8 +4,13 @@ import getMAC from 'getmac'
 export default class GetMacAddress {
 	getMACAddress = (): string => getMAC()
 
-	getMACAddressHashed = (): Int => this.hashCode(this.getMACAddress())
-
+	getMACAddressHashed = (): Int => {
+		if(global.inTest) {
+			return -1299227078 as Int
+		} else {
+			return this.hashCode(this.getMACAddress())
+		}
+	}
 	hashCode = (word: string): Int => {
 		let hash = 0,
 			i,
