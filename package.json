@@ -92,77 +92,12 @@
       }
     },
     {
-      "description": "TypeScript compiled against ES2018 for Node.js with Require for modules",
-      "directory": "edition-es2018",
-      "entry": "index.js",
-      "tags": [
-        "javascript",
-        "es2018",
-        "require"
-      ],
-      "engines": {
-        "node": true
-      }
-    },
-    {
-      "description": "TypeScript compiled against ES2017 for Node.js with Require for modules",
-      "directory": "edition-es2017",
-      "entry": "index.js",
-      "tags": [
-        "javascript",
-        "es2017",
-        "require"
-      ],
-      "engines": {
-        "node": true
-      }
-    },
-    {
-      "description": "TypeScript compiled against ES2016 for Node.js with Require for modules",
-      "directory": "edition-es2016",
-      "entry": "index.js",
-      "tags": [
-        "javascript",
-        "es2016",
-        "require"
-      ],
-      "engines": {
-        "node": true
-      }
-    },
-    {
-      "description": "TypeScript compiled against ES2015 for Node.js with Require for modules",
-      "directory": "edition-es2015",
-      "entry": "index.js",
-      "tags": [
-        "javascript",
-        "es2015",
-        "require"
-      ],
-      "engines": {
-        "node": true
-      }
-    },
-    {
       "description": "TypeScript compiled against ES5 for Node.js with Require for modules",
       "directory": "edition-es5",
       "entry": "index.js",
       "tags": [
         "javascript",
         "es5",
-        "require"
-      ],
-      "engines": {
-        "node": true
-      }
-    },
-    {
-      "description": "TypeScript compiled against ES3 for Node.js with Require for modules",
-      "directory": "edition-es3",
-      "entry": "index.js",
-      "tags": [
-        "javascript",
-        "es3",
         "require"
       ],
       "engines": {
@@ -211,12 +146,7 @@
     "my:test": "jest",
     "our:build": "npm run my:build",
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",
-    "our:compile": "npm run our:compile:edition-es2015 && npm run our:compile:edition-es2016 && npm run our:compile:edition-es2017 && npm run our:compile:edition-es2018 && npm run our:compile:edition-es3 && npm run our:compile:edition-es5 && npm run our:compile:edition-esnext",
-    "our:compile:edition-es2015": "tsc --module commonjs --target ES2015 --outDir ./edition-es2015 --project tsconfig.json && test -d edition-es2015/src && ( mv edition-es2015/src edition-temp && rm -Rf edition-es2015 && mv edition-temp edition-es2015 ) || true",
-    "our:compile:edition-es2016": "tsc --module commonjs --target ES2016 --outDir ./edition-es2016 --project tsconfig.json && test -d edition-es2016/src && ( mv edition-es2016/src edition-temp && rm -Rf edition-es2016 && mv edition-temp edition-es2016 ) || true",
-    "our:compile:edition-es2017": "tsc --module commonjs --target ES2017 --outDir ./edition-es2017 --project tsconfig.json && test -d edition-es2017/src && ( mv edition-es2017/src edition-temp && rm -Rf edition-es2017 && mv edition-temp edition-es2017 ) || true",
-    "our:compile:edition-es2018": "tsc --module commonjs --target ES2018 --outDir ./edition-es2018 --project tsconfig.json && test -d edition-es2018/src && ( mv edition-es2018/src edition-temp && rm -Rf edition-es2018 && mv edition-temp edition-es2018 ) || true",
-    "our:compile:edition-es3": "tsc --module commonjs --target ES3 --outDir ./edition-es3 --project tsconfig.json && test -d edition-es3/src && ( mv edition-es3/src edition-temp && rm -Rf edition-es3 && mv edition-temp edition-es3 ) || true",
+    "our:compile": "npm run our:compile:edition-es5 && npm run our:compile:edition-esnext",
     "our:compile:edition-es5": "tsc --module commonjs --target ES5 --outDir ./edition-es5 --project tsconfig.json && test -d edition-es5/src && ( mv edition-es5/src edition-temp && rm -Rf edition-es5 && mv edition-temp edition-es5 ) || true",
     "our:compile:edition-esnext": "tsc --module commonjs --target ESNext --outDir ./edition-esnext --project tsconfig.json && test -d edition-esnext/src && ( mv edition-esnext/src edition-temp && rm -Rf edition-esnext && mv edition-temp edition-esnext ) || true",
     "our:coverage": "npm run my:coverage",
