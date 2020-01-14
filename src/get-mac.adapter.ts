@@ -1,6 +1,14 @@
 import { Int } from './int.d'
 import getMAC from 'getmac'
 
+declare global {
+  namespace NodeJS {
+    interface Global {
+        inTest: boolean
+    }
+  }
+}
+
 export default class GetMacAddress {
 	getMACAddress = (): string => getMAC()
 
