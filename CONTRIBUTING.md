@@ -1,23 +1,16 @@
 <!--
-2019 December 18
+2020 January 10
 https://github.com/bevry/base
 -->
 
 # Before You Post!
 
-## Support
-
-We offer support through our [Official Support Channels](https://bevry.me/support). Do not use GitHub Issues for support, your issue will be closed.
-
-## Contribute
-
-Our [Contributing Guide](https://bevry.me/contribute) contains useful tips and suggestions for how to contribute to this project, it's worth the read.
-
 ## Development
 
 ### Setup
 
-1. [Install Node.js](https://bevry.me/install/node)
+1. [Install Node.js](https://nodejs.org/en/) or better
+[Install Node Version Manager](https://adico.tech/2018/06/29/nodejs-versions-manager/)
 
 1. Fork the project and clone your fork - [guide](https://help.github.com/articles/fork-a-repo/)
 
@@ -97,9 +90,9 @@ To publish your changes as the project owner:
     ```markdown
     ## v6.29.0 2013 April 1
 
-    -   Progress on [issue #474](https://github.com/bevry/docpad/issues/474)
-    -   DocPad will now set permissions based on the process's ability
-        -   Thanks to [Avi Deitcher](https://github.com/deitch), [Stephan Lough](https://github.com/stephanlough) for [issue #165](https://github.com/bevry/docpad/issues/165)
+    -   Progress on [issue #474](https://github.com/adico1/sequencegenerator/issues/474)
+    -   SequenceGenerator fix node id null
+        -   Thanks to [Avi Deitcher](https://github.com/deitch), [Stephan Lough](https://github.com/stephanlough) for [issue #165](https://github.com/adico1/sequencegenerator/issues/165)
     -   Updated dependencies
     ```
 
