@@ -1,6 +1,6 @@
 {
   "name": "@adico/sequencegenerator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Time Sortable Distributed Unique Id Generator based on Twitter Snowflake",
   "homepage": "https://github.com/adico1/sequencegenerator",
   "license": "MIT",
@@ -26,26 +26,16 @@
       "daviddm",
       "daviddmdev",
       "---",
-      "githubsponsors",
       "patreon",
       "flattr",
       "liberapay",
-      "buymeacoffee",
-      "opencollective",
-      "crypto",
-      "paypal",
-      "wishlist"
+      "paypal"
     ],
     "config": {
-      "githubSponsorsUsername": "adico1",
-      "buymeacoffeeUsername": "adico",
-      "cryptoURL": "https://crypto.com/adico",
-      "flattrUsername": "adico1",
-      "liberapayUsername": "adico1",
-      "opencollectiveUsername": "adico1",
+      "flattrUsername": "adico",
+      "liberapayUsername": "adico",
       "patreonUsername": "adico§",
       "paypalURL": "https://paypal.me/adico1",
-      "wishlistURL": "https://amazon.com/wishlist",
       "travisTLD": "com"
     }
   },

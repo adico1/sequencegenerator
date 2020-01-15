@@ -1,5 +1,9 @@
 # History
 
+## v1.0.4 2020 January 15
+
+-   Fix README
+
 ## v1.0.3 2020 January 15
 
 -   Add CI/CD + Fix Test
