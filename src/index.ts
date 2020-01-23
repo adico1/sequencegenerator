@@ -1,6 +1,5 @@
 import { Int } from './int.d'
 import { Long } from './long.d'
-import GetMacAddress from './get-mac.adapter'
 
 /**
  * Migrated to JS by adico
@@ -19,7 +18,7 @@ export class SequenceGenerator {
 	private static readonly NODE_ID_BITS: Int = 10 as Int
 	private static readonly SEQUENCE_BITS: Int = 12 as Int
 
-	private static readonly maxNodeId = (Math.pow(
+	public static readonly maxNodeId = (Math.pow(
 		2,
 		SequenceGenerator.NODE_ID_BITS
 	) - 1) as Int
@@ -38,12 +37,7 @@ export class SequenceGenerator {
 	private sequence = 0 as Long
 
 	// Create SequenceGenerator with a nodeId
-	constructor(nodeId: Int | null) {
-		if (nodeId === null || typeof nodeId === 'undefined') {
-			this.nodeId = this.createNodeId()
-			return
-		}
-
+	constructor(nodeId: number) {
 		if (nodeId < 0 || nodeId > SequenceGenerator.maxNodeId) {
 			throw new Error(
 				`NodeId must be between 0 and ${SequenceGenerator.maxNodeId}`
@@ -93,8 +87,4 @@ export class SequenceGenerator {
 		}
 		return currentTimestamp
 	}
-
-	private createNodeId = (): Int =>
-		(new GetMacAddress().getMACAddressHashed() & // eslint-disable-line no-bitwise
-			SequenceGenerator.maxNodeId) as Int
 }

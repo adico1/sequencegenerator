@@ -10,7 +10,7 @@ https://github.com/bevry/base
 ### Setup
 
 1. [Install Node.js](https://nodejs.org/en/) or better
-[Install Node Version Manager](https://adico.tech/2018/06/29/nodejs-versions-manager/)
+   [Install Node Version Manager](https://adico.tech/2018/06/29/nodejs-versions-manager/)
 
 1. Fork the project and clone your fork - [guide](https://help.github.com/articles/fork-a-repo/)
 

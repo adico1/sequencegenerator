@@ -28,8 +28,6 @@ Time Sortable Distributed Unique Id Generator based on Twitter Snowflake
 <!-- /DESCRIPTION -->
 
 
-This library will not run in web browsers / on the client-side / in webpack / in browserify / in angular / in react / in jQuery / in HTML. It will only run on Node.js environments, which the web browser is not.
-
 ## Usage
 
 [Complete API Documentation.](http://master.sequencegenerator.adico1.surge.sh/docs/globals.html)
@@ -42,10 +40,7 @@ Install locally `npm install --save @adico/sequencegenerator`, then use like so:
 import SequenceGenerator from '@adico/sequencegenerator'
 
 // Generate Unique Id based on NodeId as hashed MAC address
-console.log(new SequenceGenerator().nextId())
-
-// Generate Unique Id based on NodeId as input by the client
-console.log(sequencegenerator(1000))
+console.log(new SequenceGenerator(254).nextId())
 ```
 
 ### Advanced

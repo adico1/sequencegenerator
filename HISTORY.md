@@ -1,5 +1,10 @@
 # History
 
+## v2.0.0 2020 January 23
+
+-   Change Interface
+-   Bug not progressing
+
 ## v1.0.4 2020 January 15
 
 -   Fix README
