@@ -2,8 +2,8 @@ import { suite } from 'kava'
 import { equal } from 'assert-helpers'
 import { SequenceGenerator } from '.'
 
-suite('@adico/sequencegenerator', function(suite, test) {
-	test('sequence nodeId as const value', function() {
+suite('@adico/sequencegenerator', function (suite, test) {
+	test('sequence nodeId as const value', function () {
 		const mockMath = Object.create(global.Math)
 		mockMath.random = () => 0.5
 		global.Math = mockMath
@@ -20,7 +20,7 @@ suite('@adico/sequencegenerator', function(suite, test) {
 		equal(sg.nextId(), 3192868868)
 	})
 
-	test('sequence nodeId as -1', function() {
+	test('sequence nodeId as -1', function () {
 		const mockMath = Object.create(global.Math)
 		mockMath.random = () => 0.5
 		global.Math = mockMath
@@ -39,7 +39,7 @@ suite('@adico/sequencegenerator', function(suite, test) {
 		}
 	})
 
-	test('sequence nodeId as SequenceGenerator.maxNodeId + 1', function() {
+	test('sequence nodeId as SequenceGenerator.maxNodeId + 1', function () {
 		const mockMath = Object.create(global.Math)
 		mockMath.random = () => 0.5
 		global.Math = mockMath
