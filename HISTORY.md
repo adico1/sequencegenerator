@@ -1,5 +1,9 @@
 # History
 
+## v2.0.1 2020 April 4
+
+-   Bumped version suggested by dependabot
+
 ## v2.0.0 2020 January 23
 
 -   Change Interface
