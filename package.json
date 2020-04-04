@@ -116,7 +116,7 @@
     "projectz": "^1.19.0",
     "surge": "^0.21.3",
     "ts-jest": "^25.0.0",
-    "typedoc": "^0.16.2",
+    "typedoc": "^0.17.3",
     "typescript": "^3.7.4",
     "valid-directory": "^1.6.0"
   },
