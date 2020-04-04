@@ -4,6 +4,7 @@
 
 <!-- /TITLE -->
 
+
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.com/adico1/sequencegenerator" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/adico1/sequencegenerator/master.svg" alt="Travis CI Build Status" /></a></span>
@@ -19,11 +20,13 @@
 
 <!-- /BADGES -->
 
+
 <!-- DESCRIPTION/ -->
 
 Time Sortable Distributed Unique Id Generator based on Twitter Snowflake
 
 <!-- /DESCRIPTION -->
+
 
 ## Usage
 
@@ -47,7 +50,6 @@ console.log(new SequenceGenerator(254).nextId())
 <h2>Install</h2>
 
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
-
 <ul>
 <li>Install: <code>npm install --save @adico/sequencegenerator</code></li>
 <li>Import: <code>import * as pkg from ('@adico/sequencegenerator')</code></li>
@@ -65,6 +67,7 @@ console.log(new SequenceGenerator(254).nextId())
 
 <!-- /INSTALL -->
 
+
 <!-- HISTORY/ -->
 
 <h2>History</h2>
@@ -73,6 +76,7 @@ console.log(new SequenceGenerator(254).nextId())
 
 <!-- /HISTORY -->
 
+
 <!-- CONTRIBUTE/ -->
 
 <h2>Contribute</h2>
@@ -80,6 +84,7 @@ console.log(new SequenceGenerator(254).nextId())
 <a href="https://github.com/adico1/sequencegenerator/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /CONTRIBUTE -->
+
 
 <!-- BACKERS/ -->
 
@@ -110,6 +115,7 @@ These amazing people have contributed code to this project:
 <a href="https://github.com/adico1/sequencegenerator/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
+
 
 <!-- LICENSE/ -->
 
